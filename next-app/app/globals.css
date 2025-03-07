@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  background: #f9f9f9;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, transparent, 23px, #555 24px),
+    linear-gradient(to bottom, transparent, 23px, #555 24px);
+  background-size: 24px 24px;
+}
+
+.custom-container {
+  background: rgba(255, 255, 255, 10);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+}
